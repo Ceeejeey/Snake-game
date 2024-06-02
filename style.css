@@ -12,7 +12,7 @@
 }
 
 body {
-  background: #000d36;
+  background: #000000;
   color: white;
 }
 
@@ -82,7 +82,7 @@ body {
 #reset,
 #show-grid,
 .pause-active {
-  background: #000d36;
+  background: #00030c;
   color: #cccccc;
   border-radius: 25px;
   width: 120px;

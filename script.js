@@ -19,7 +19,7 @@
     let score = 0;
   
     const setScore = () => {
-      scoreEl.innerHTML = `Score 👉 ${score}`;
+      scoreEl.innerHTML = `Score  ${score}`;
       if (score >= localStorage.getItem("highScore"))
         localStorage.setItem("highScore", score);
       highScoreEl.innerHTML = `HIGH SCORE 🚀 ${localStorage.getItem("highScore")}`;
